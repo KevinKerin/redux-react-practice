@@ -50,7 +50,7 @@ var colourReducer = function colourReducer() {
 
     default:
       {
-        return state;
+        return defaultColour;
       }
   }
 };

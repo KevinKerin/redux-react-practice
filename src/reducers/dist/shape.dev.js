@@ -53,7 +53,7 @@ var shapeReducer = function shapeReducer() {
 
     default:
       {
-        return state;
+        return defaultShape;
       }
   }
 };

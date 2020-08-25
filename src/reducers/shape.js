@@ -35,7 +35,7 @@ const shapeReducer = (state = defaultShape, action) => {
               })
         }
         default: {
-            return state
+            return defaultShape
         }
     }
 }

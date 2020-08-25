@@ -30,7 +30,7 @@ const colourReducer = (state = defaultColour, action) => {
             }
         }
         default : {
-            return state
+            return defaultColour
         }
     }
 }
